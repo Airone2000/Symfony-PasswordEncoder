@@ -2,7 +2,96 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8147918b-cb7d-4c47-9771-af68e20ca32f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Security/PasswordEncoder.php" afterPath="$PROJECT_DIR$/src/Security/PasswordEncoder.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk.legacy" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getAnnotations_CacheService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getAnnotations_CacheWarmerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getAppControllerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getArgumentResolver_DefaultService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getArgumentResolver_RequestAttributeService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getArgumentResolver_RequestService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getArgumentResolver_ServiceService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getArgumentResolver_SessionService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getArgumentResolver_VariadicService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getBCryptPasswordEncoderService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getCacheClearerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getCacheWarmerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getCache_AppClearerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getCache_GlobalClearerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getCache_SystemClearerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getConfig_Resource_SelfCheckingResourceCheckerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getConsole_CommandLoaderService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getConsole_Command_AboutService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getConsole_Command_AssetsInstallService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getConsole_Command_CacheClearService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getConsole_Command_CachePoolClearService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getConsole_Command_CachePoolPruneService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getConsole_Command_CacheWarmupService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getConsole_Command_ConfigDebugService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getConsole_Command_ConfigDumpReferenceService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getConsole_Command_ContainerDebugService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getConsole_Command_DebugAutowiringService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getConsole_Command_EventDispatcherDebugService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getConsole_Command_RouterDebugService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getConsole_Command_RouterMatchService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getConsole_Command_YamlLintService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getConsole_ErrorListenerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getDebug_DumpListenerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getDebug_FileLinkFormatter_UrlFormatService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getDependencyInjection_Config_ContainerParametersResourceCheckerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getFilesystemService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getFragment_Renderer_InlineService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getMonolog_Logger_SecurityService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getRedirectControllerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getRouter_CacheWarmerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getRouting_LoaderService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_AccessListenerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_AccessMapService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_Access_AuthenticatedVoterService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_Access_SimpleRoleVoterService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_AuthenticationUtilsService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_Authentication_BasicEntryPoint_MainService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_Authentication_Listener_Anonymous_MainService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_Authentication_Listener_Basic_MainService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_Authentication_Provider_Anonymous_MainService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_Authentication_Provider_Dao_MainService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_ChannelListenerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_Command_UserPasswordEncoderService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_ContextListener_0Service.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_Csrf_TokenManagerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_EncoderFactory_GenericService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_Firewall_Map_Context_DevService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_Firewall_Map_Context_MainService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_PasswordEncoderService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_RequestMatcher_ZfHj2lWService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_UserValueResolverService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_User_Provider_Concrete_ChainProviderService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSecurity_User_Provider_Concrete_InMemoryService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getServicesResetterService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getSessionService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getTemplateControllerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getTwig_CacheWarmerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getTwig_Command_DebugService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getTwig_Command_LintService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getTwig_Controller_ExceptionService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getTwig_Controller_PreviewErrorService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getTwig_ExceptionListenerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getTwig_Runtime_HttpkernelService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getTwig_TemplateCacheWarmerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getWebProfiler_Controller_ExceptionService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getWebProfiler_Controller_ProfilerService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getWebProfiler_Controller_RouterService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getWebServer_Command_ServerLogService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getWebServer_Command_ServerRunService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getWebServer_Command_ServerStartService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getWebServer_Command_ServerStatusService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/getWebServer_Command_ServerStopService.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/removed-ids.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/var/cache/dev/ContainerW6kBqRk/srcDevDebugProjectContainer.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/packages/security.yaml" afterPath="$PROJECT_DIR$/config/packages/security.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" afterPath="$PROJECT_DIR$/var/cache/dev/profiler/index.csv" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainer.php" afterPath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainer.xml" afterPath="$PROJECT_DIR$/var/cache/dev/srcDevDebugProjectContainer.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/var/log/dev.log" afterPath="$PROJECT_DIR$/var/log/dev.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,21 +109,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="security.yaml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="security.yaml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="122">
+              <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PasswordEncoder.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PasswordEncoder.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Security/PasswordEncoder.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="51" column="15" lean-forward="false" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
+            <state relative-caret-position="1012">
+              <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
               <folding>
                 <element signature="e#31#95#0#PHP" expanded="true" />
               </folding>
@@ -96,8 +185,8 @@
         <option value="$PROJECT_DIR$/src/Controller/AppController.php" />
         <option value="$PROJECT_DIR$/src/Security/LegacyPasswordEncoder.php" />
         <option value="$PROJECT_DIR$/config/services.yaml" />
-        <option value="$PROJECT_DIR$/config/packages/security.yaml" />
         <option value="$PROJECT_DIR$/src/Security/PasswordEncoder.php" />
+        <option value="$PROJECT_DIR$/config/packages/security.yaml" />
       </list>
     </option>
   </component>
@@ -284,12 +373,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1524603150172</updated>
-      <workItem from="1524603153049" duration="5072000" />
+      <workItem from="1524603153049" duration="5164000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5072000" />
+    <option name="totallyTimeSpent" value="5164000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="708" extended-state="6" />
@@ -400,6 +489,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Security/PasswordEncoder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="44" column="9" lean-forward="false" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+          <folding>
+            <element signature="e#31#95#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/symfony/security/Core/Encoder/BCryptPasswordEncoder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1120">
@@ -410,19 +509,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/packages/security.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="122">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Security/PasswordEncoder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="51" column="15" lean-forward="false" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
-          <folding>
-            <element signature="e#31#95#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

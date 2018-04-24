@@ -4,9 +4,12 @@ security:
         in_memory:
             memory:
                 users:
-                    Erwann:
-                        #password: 40bd001563085fc35165329ea1ff5c5ecbdbbeef
+                    Erwan:
                         password: $2y$12$.h.7EWbxoYb1sakKbaqYJu5LCs9lGHASJ5VuEdqPA2xV2q2WSTyqO
+                        roles: 'ROLE_ADMIN'
+
+                    Florence:
+                        password: 40bd001563085fc35165329ea1ff5c5ecbdbbeef
                         roles: 'ROLE_ADMIN'
 
         chain_provider:

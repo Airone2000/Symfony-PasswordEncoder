@@ -1688,8 +1688,14 @@
     </service>
     <service id="security.user.provider.concrete.in_memory" class="Symfony\Component\Security\Core\User\InMemoryUserProvider" public="false">
       <argument type="collection">
-        <argument key="Erwann" type="collection">
+        <argument key="Erwan" type="collection">
           <argument key="password">$2y$12$.h.7EWbxoYb1sakKbaqYJu5LCs9lGHASJ5VuEdqPA2xV2q2WSTyqO</argument>
+          <argument key="roles" type="collection">
+            <argument>ROLE_ADMIN</argument>
+          </argument>
+        </argument>
+        <argument key="Florence" type="collection">
+          <argument key="password">40bd001563085fc35165329ea1ff5c5ecbdbbeef</argument>
           <argument key="roles" type="collection">
             <argument>ROLE_ADMIN</argument>
           </argument>
