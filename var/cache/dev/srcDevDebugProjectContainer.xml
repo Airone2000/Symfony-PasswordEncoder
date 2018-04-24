@@ -186,6 +186,12 @@
         <argument type="service" id="service_locator.aqxUcvZ.App\Controller\AppController"/>
       </call>
     </service>
+    <service id="App\Security\PasswordEncoder" class="App\Security\PasswordEncoder" public="false" autowire="true" autoconfigure="true">
+      <argument type="service" id="Symfony\Component\Security\Core\Encoder\BCryptPasswordEncoder"/>
+    </service>
+    <service id="Symfony\Component\Security\Core\Encoder\BCryptPasswordEncoder" class="Symfony\Component\Security\Core\Encoder\BCryptPasswordEncoder" public="true" autowire="true" autoconfigure="true">
+      <argument>13</argument>
+    </service>
     <service id="controller_name_converter" class="Symfony\Bundle\FrameworkBundle\Controller\ControllerNameParser" public="false">
       <tag name="monolog.logger" channel="request"/>
       <argument type="service" id="kernel"/>
@@ -1286,12 +1292,7 @@
     </service>
     <service id="security.encoder_factory.generic" class="Symfony\Component\Security\Core\Encoder\EncoderFactory" public="false">
       <argument type="collection">
-        <argument key="Symfony\Component\Security\Core\User\User" type="collection">
-          <argument key="class">Symfony\Component\Security\Core\Encoder\BCryptPasswordEncoder</argument>
-          <argument key="arguments" type="collection">
-            <argument>12</argument>
-          </argument>
-        </argument>
+        <argument key="Symfony\Component\Security\Core\User\User" type="service" id="App\Security\PasswordEncoder"/>
       </argument>
     </service>
     <service id="security.user_password_encoder.generic" class="Symfony\Component\Security\Core\Encoder\UserPasswordEncoder" public="false">
@@ -1687,7 +1688,7 @@
     </service>
     <service id="security.user.provider.concrete.in_memory" class="Symfony\Component\Security\Core\User\InMemoryUserProvider" public="false">
       <argument type="collection">
-        <argument key="Erwan" type="collection">
+        <argument key="Erwann" type="collection">
           <argument key="password">$2y$12$.h.7EWbxoYb1sakKbaqYJu5LCs9lGHASJ5VuEdqPA2xV2q2WSTyqO</argument>
           <argument key="roles" type="collection">
             <argument>ROLE_ADMIN</argument>

@@ -4,7 +4,8 @@ security:
         in_memory:
             memory:
                 users:
-                    Erwan:
+                    Erwann:
+                        #password: 40bd001563085fc35165329ea1ff5c5ecbdbbeef
                         password: $2y$12$.h.7EWbxoYb1sakKbaqYJu5LCs9lGHASJ5VuEdqPA2xV2q2WSTyqO
                         roles: 'ROLE_ADMIN'
 
@@ -14,8 +15,7 @@ security:
 
     encoders:
         Symfony\Component\Security\Core\User\User:
-            algorithm: bcrypt
-            cost: 12
+            id: App\Security\PasswordEncoder
 
     firewalls:
         dev:
