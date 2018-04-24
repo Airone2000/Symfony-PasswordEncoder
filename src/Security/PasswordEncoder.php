@@ -7,9 +7,6 @@ use Symfony\Component\Security\Core\Encoder\PasswordEncoderInterface;
 
 final class PasswordEncoder extends BasePasswordEncoder implements PasswordEncoderInterface
 {
-    
-    private $sha1 = null;
-    
     /**
      * @var \Symfony\Component\Security\Core\Encoder\BCryptPasswordEncoder
      */
@@ -30,29 +27,29 @@ final class PasswordEncoder extends BasePasswordEncoder implements PasswordEncod
      */
     public function encodePassword($raw, $salt)
     {
-        $this->sha1 = sha1($raw);
         return $this->BCryptPasswordEncoder->encodePassword($raw, $salt);
     }
     
     
     public function isPasswordValid($encoded, $raw, $salt)
     {
+        
+        // Right bcrypt password ?
         if ($this->BCryptPasswordEncoder->isPasswordValid($encoded, $raw, $salt)) {
             return true;
         }
     
-        // prevent legacy fallback when it's obvious that the password
-        // has been hashed using bcrypt (hash starts with '$2y$')
+        // Wrong bcrypt password ?
         if (substr($encoded, 0, 4) === '$2y$') {
             return false;
         }
         
-        // Old sha1
+        // Is it an plain old sha1 ?
         if(!$this->isPasswordTooLong($raw) && $encoded === sha1($raw)) {
             return true;
         }
         
-        
+        // Nope
         return false;
     }
 }
